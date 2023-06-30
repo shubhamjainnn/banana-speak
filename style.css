@@ -1,0 +1,69 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap"); */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    cursive;
+}
+
+#nav {
+  padding: 2rem 3rem;
+  background-color: var(--primery-color);
+  text-align: center;
+  font-family: inherit;
+  font-size: large;
+}
+
+:root {
+  --primery-color: rgba(208, 180, 144, 0.852);
+  --width-break: 600px;
+}
+
+#txt-Input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, cursive;
+}
+.container-center {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+#btn-Translate {
+  padding: 1rem 3rem;
+  margin: 0.5rem;
+  border: none;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+  background-color: var(--primery-color);
+}
+
+#output {
+  overflow: scroll;
+  box-sizing: border-box;
+  padding: 2rem 0.25rem;
+  font-size: medium;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: var(--primery-color);
+  bottom: 0;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer.p {
+  max-width: var(--width-break);
+  margin: auto;
+}
